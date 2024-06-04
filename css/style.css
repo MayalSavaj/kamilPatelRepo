@@ -706,6 +706,9 @@ h5.subtitle {
     margin-bottom: 70px;
     height: 220px;
 }
+.Experience{
+    margin-top: 26px;
+}
 
 .exp-block:hover {
     border-radius: 0px 25px;
