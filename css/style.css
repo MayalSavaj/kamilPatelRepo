@@ -798,7 +798,19 @@ margin-top: -8%;
     }
 }
 
+@media (min-width: 370px) {
+    .text_name{
+margin-top: 3%;
+    }
+}
+
 @media (max-width: 378px) {
+    .text_name{
+margin-top: -14%;
+    }
+}
+
+@media (max-width: 385px) {
     .text_name{
 margin-top: -14%;
     }
@@ -812,7 +824,7 @@ margin-top: -3%;
 
 @media (min-width: 425px) {
     .text_name{
-margin-top: -4%;
+margin-top: -6%;
     }
 }
 
@@ -829,29 +841,30 @@ margin-top: 8%;
     }
 }
 
+
 @media (min-width: 470px) {
     .text_name{
-margin-top: 11%;
+margin-top: 8%;
     }
 }
 
-/* @media (min-width: 520px) {
+@media (min-width: 490px) {
+    .text_name{
+margin-top: 10%;
+    }
+}
+
+@media (min-width: 505px) {
     .text_name{
 margin-top: 6%;
     }
-} */
+}
 
-/* @media (min-width: 520px) {
-    .text_name{
-margin-top: 6%;
-    }
-} */
-
-/* @media (min-width: 565px) {
+@media (min-width: 530px) {
     .text_name{
 margin-top: 5%;
     }
-} */
+}
 
 
 .exp-block h4 {
@@ -863,6 +876,9 @@ margin-top: 5%;
     font-size: 14px;
 }
 
+.text_detail{
+    display: contents;
+}
 /**
  * 6.0 Services (section)
  * -----------------------------------------------------------------------------
