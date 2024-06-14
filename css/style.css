@@ -909,7 +909,7 @@ margin-top: 5%;
     box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.27);
 }
 
-.services-area .single-service span {
+.services-area .single-service .service_img {
     font-size: 40px;
     margin-bottom: 20px;
     line-height: 100%;
@@ -917,6 +917,9 @@ margin-top: 5%;
     color: #3e43e9;
 }
 
+.service_img{
+    width: 22%;
+}
 .services-area .service-title {
     font-weight: 700;
     color: #333;

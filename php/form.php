@@ -12,7 +12,7 @@ $budget     =    $_POST['budget'];
 $message    =    $_POST['message'];
 
 // Email Address where you want to received the mails
-$to = "email@example.com";
+$to = "mayalsavaj13310@gmail.com";
 
 // Mail Subject
 $subject = "Resume - Responsive Portfolio / CV Template";
