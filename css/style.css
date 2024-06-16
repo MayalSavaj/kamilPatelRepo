@@ -1206,6 +1206,15 @@ h5.subtitle {
     color: orange;
 }
 
+.rating {
+    display: flex;
+    align-items: center;
+  }
+  .rating .fa-star {
+    color: #FFD700; /* Gold color */
+    margin-right: 5px;
+  }
+
 .clients-area .testimonial-carousel {
     position: relative;
     width: 85%;
