@@ -717,10 +717,23 @@ h5.subtitle {
     box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
     transition: 200ms ease-out;
     background-color: #FFFFFF;
-    margin-bottom: 70px;
-    height: 220px;
+    margin-bottom: 39px;
+    height: 150px;
+}
+.box_about{
+    background-color: #ffffff; /* White background */
+    /* border: 1px solid #ddd; */
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
+.box_about img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
 
 .Experience {
     margin-top: 26px;
@@ -736,7 +749,7 @@ h5.subtitle {
 .exp-block .img-icon {
     display: block;
     margin: 0 auto;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     width: 100%;
 }
 
@@ -745,7 +758,7 @@ h5.subtitle {
         display: block;
         margin: 0 auto;
         margin-bottom: 10px;
-        width: 89%;
+        width: 100%;
         margin-top: -11%;
     }
 }
@@ -755,7 +768,7 @@ h5.subtitle {
         display: block;
         margin: 0 auto;
         margin-bottom: 10px;
-        width: 79%;
+        width: 100%;
         margin-top: -11%;
     }
 }
@@ -765,7 +778,7 @@ h5.subtitle {
         display: block;
         margin: 0 auto;
         margin-bottom: 10px;
-        width: 75%;
+        width: 100%;
         margin-top: -10%;
     }
 }
@@ -774,95 +787,95 @@ h5.subtitle {
     .exp-block .img-icon {
         display: block;
         margin: 0 auto;
-        margin-bottom: 10px;
-        width: 67%;
-        margin-top: -8%;
+        /* margin-bottom: 10px; */
+        width: 100%;
+        /* margin-top: -8%; */
     }
 }
 
 @media (min-width: 320px) {
-    .text_name{
-margin-top: -4%;
+    .text_name {
+        margin-top: -4%;
     }
 }
 
 @media (min-width: 340px) {
-    .text_name{
-margin-top: -7%;
+    .text_name {
+        margin-top: -7%;
     }
 }
 
 @media (min-width: 355px) {
-    .text_name{
-margin-top: -8%;
+    .text_name {
+        margin-top: -8%;
     }
 }
 
 @media (min-width: 370px) {
-    .text_name{
-margin-top: 3%;
+    .text_name {
+        margin-top: 3%;
     }
 }
 
 @media (max-width: 378px) {
-    .text_name{
-margin-top: -14%;
+    .text_name {
+        margin-top: -14%;
     }
 }
 
 @media (max-width: 385px) {
-    .text_name{
-margin-top: -14%;
+    .text_name {
+        margin-top: -14%;
     }
 }
 
 @media (min-width: 400px) {
-    .text_name{
-margin-top: -3%;
+    .text_name {
+        margin-top: -3%;
     }
 }
 
 @media (min-width: 425px) {
-    .text_name{
-margin-top: -6%;
+    .text_name {
+        margin-top: -6%;
     }
 }
 
 @media (min-width: 438px) {
-    .text_name{
-margin-top: -8%;
+    .text_name {
+        margin-top: -8%;
     }
 }
 
 
 @media (min-width: 450px) {
-    .text_name{
-margin-top: 8%;
+    .text_name {
+        margin-top: 8%;
     }
 }
 
 
 @media (min-width: 470px) {
-    .text_name{
-margin-top: 8%;
+    .text_name {
+        margin-top: 8%;
     }
 }
 
 @media (min-width: 490px) {
-    .text_name{
-margin-top: 10%;
+    .text_name {
+        margin-top: 10%;
     }
 }
 
 @media (min-width: 505px) {
-    .text_name{
-margin-top: 6%;
+    .text_name {
+        margin-top: 6%;
     }
 }
 
 @media (min-width: 530px) {
-    .text_name{
-margin-top: 5%;
+    .text_name {
+        margin-top: 5%;
     }
 }
 
@@ -876,9 +889,10 @@ margin-top: 5%;
     font-size: 14px;
 }
 
-.text_detail{
+.text_detail {
     display: contents;
 }
+
 /**
  * 6.0 Services (section)
  * -----------------------------------------------------------------------------
@@ -917,9 +931,10 @@ margin-top: 5%;
     color: #3e43e9;
 }
 
-.service_img{
+.service_img {
     width: 22%;
 }
+
 .services-area .service-title {
     font-weight: 700;
     color: #333;
